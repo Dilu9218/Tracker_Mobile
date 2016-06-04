@@ -31,7 +31,7 @@
             android:value="@integer/google_play_services_version" />
 
         <activity
-            android:name=".login"
+            android:name=".Login"
             android:label="@string/title_activity_login"
             android:theme="@style/Login" >
             <intent-filter>

@@ -21,7 +21,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.pickupmap);
-
         GoogleMap googleMap;
         googleMap = ((MapFragment) getFragmentManager().findFragmentById(R.id.pickupmap)).getMap();
         googleMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
