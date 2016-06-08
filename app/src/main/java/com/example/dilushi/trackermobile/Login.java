@@ -13,7 +13,7 @@ import android.widget.Button;
 
 public class Login extends AppCompatActivity {
 
-    private Button loginbtn;
+    private Button loginButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,11 +35,11 @@ public class Login extends AppCompatActivity {
             }
         });
 
-        loginbtn= (Button)findViewById(R.id.btnLogin);
-        loginbtn.setOnClickListener(new View.OnClickListener() {
+        loginButton = (Button) findViewById(R.id.btnLogin);
+        loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent mainac= new Intent(Login.this, MainActivity.class);
+                Intent mainac = new Intent(Login.this, MainActivity.class);
                 startActivity(mainac);
             }
         });
