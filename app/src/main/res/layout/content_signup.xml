@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.knight.login.LoginSplash"
+    android:background="@android:color/holo_blue_dark">
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/txtUserName"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:background="@color/background_material_light"
+        android:padding="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:hint="@string/user_name"
+        android:typeface="normal" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/txtPassWord"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txtUserName"
+        android:background="@color/background_material_light"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:hint="@string/password"
+        android:typeface="normal" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/reenterTxtPassWord"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txtUserName"
+        android:background="@color/background_material_light"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:hint="@string/password"
+        android:typeface="normal" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:id="@+id/btnSignUp"
+        android:layout_below="@+id/txtPassWord"
+        android:layout_centerHorizontal="true"
+        android:typeface="normal"
+        android:textStyle="bold"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="35dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:background="@color/material_grey_300"
+        android:textSize="15sp" />
+
+    
+
+</RelativeLayout>
